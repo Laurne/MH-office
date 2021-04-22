@@ -22,8 +22,8 @@ jobs:
       - name: Bash
         run: |
           ls -al
-          git config --global user.email "d.negrier@thecodingmachine.com"
-          git config --global user.name "David Négrier"
+          git config --global user.email "laurene.devergnies@quechua.com"
+          git config --global user.name "Laurène Devergnies"
           git checkout master
           git commit -am "Adding files"
 
